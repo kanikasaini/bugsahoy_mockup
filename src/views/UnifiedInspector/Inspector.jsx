@@ -725,8 +725,7 @@ export default class Inspector extends PureComponent {
     return (
       <div>
         <Helmet>
-          <title>{`${task ? task.metadata.name : 'Task Inspector'}`}</title>
-          <link rel="shortcut icon" type="image/png" href={FavIcon} />
+          <title> Bugs Ahoy </title>
         </Helmet>
         <h4>Task &amp; Group Inspector</h4>
         <Row>
